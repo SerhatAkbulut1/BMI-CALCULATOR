@@ -1,4 +1,5 @@
 import sys
+// Point Calculator
 try:
     number_of_two_point_score=int(sys.argv[1])
     number_of_three_point_score=int(sys.argv[2])
@@ -9,7 +10,7 @@ except IndexError:
     pass
 
 
-
+//BMI Calculator
 
 
 def healthStatus(height,mass):
